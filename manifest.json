@@ -1,0 +1,27 @@
+{
+    "name": "LinkedIn popup",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "index.html",
+        "default_icon" : "popup.png"
+    },
+    "background": {
+        "service_worker" : "backend.js"
+      },
+     "host_permissions":[
+        "https://www.linkedin.com/"
+    ]
+}
+
+
+
+
+
+

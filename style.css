@@ -1,0 +1,26 @@
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    width: 250px;
+    background-color: azure;
+}
+button{
+    background-color: lightgray;
+    border: solid 1px rgb(0, 0, 0);
+    padding: 4px;
+}
+
+#display{
+    color: black; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.inActive{
+    display: none;
+}
